@@ -65,6 +65,10 @@ public class Fighter extends Character {
 			throw new IllegalArgumentException
 			("名前が長すぎます。8文字以内で入力してください。");
 		}
+		if(name == null) {
+			throw new IllegalArgumentException
+			("名前が不正な値です。入力し直してください。");
+		}
 		this.name = name;
 	}
 
@@ -115,7 +119,7 @@ public class Fighter extends Character {
 	}
 	
 	public void run() {
-		
+		System.out.println(this.name + "は一目散に逃げ出した！");
 	}
 
 
