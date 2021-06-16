@@ -115,14 +115,9 @@ public class Fighter extends Character {
 	}
 	
 	public void run() {
-		System.out.println(this.name + "は一目散に逃げ出した！");
+		System.out.println(this.name + "は一目散に逃げ出した！")
 	}
 
 
 
 }
-
-
-
-
-
